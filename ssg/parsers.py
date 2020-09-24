@@ -4,7 +4,7 @@ from typing import List
 from pathlib import Path
 import sys
 from docutils.core import publish_parts
-from IPython.display import Markdown
+from markdown import markdown
 from ssg.content import Content
 
 class Parser :
